@@ -28,7 +28,7 @@ function Display-FolderStats([string]$path){
  return $stats
 }
 
-$LogFile ='D:\testing.txt'
+$LogFile = <#ENTER A LOG FILE LOCATION#>
 Start-Transcript -Path $LogFile -Force
 
 #Checks the souce file is there
